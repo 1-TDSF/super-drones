@@ -1,9 +1,11 @@
+body{
+  background-color:#000000;
+  font-family: 'Calibri', 'Tahoma', 'Arial';
 
+}
 
 #container{
-  background-color: #000000;
-  font-family: 'Calibri', 'Tahoma', 'Arial';
-  height: 22px;
+  line-height: 22px;
   font-size: 16px;
   width: 1200px;
   margin-top:0px;
@@ -15,19 +17,57 @@
 .txt-h1{
   color: #FFFFFF;
   font-size: 50px;
+  text-align: center;
 }
 
 .parag{
-  background-color: #FFFFFF;
+  background-color:#FFFFFF;
   text-align: justify;
-  border: 1px;
-  style: solid;
-  color: #CCCCCC;
+  border: 1px solid  #CCCCCC;
+  padding: 20px;
   margin-bottom: 20px;
 }
 
 .txt-h2{
   margin: 0;
-  border-bottom: 1px;
-  dashed: #7E9F19;
+  border-bottom: 1px dashed #7E9F19 ;
+}
+
+.tit-web{
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.img-drone{
+  width: 120px;
+  height: 150px;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 2px;
+  float: left;
+  border: 1px solid #7E9F19;
+}
+
+
+a{
+  color: #2C88A7;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.link{
+ text-align: right;
+}
+
+.link2{
+  text-align: right;
+  border-bottom: 1px dashed #7E9F19;
+}
+
+a:HOVER{
+  color: #DC143C;
+  /*TRANSICAO COR */
 }
