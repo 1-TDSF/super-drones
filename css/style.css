@@ -1,0 +1,33 @@
+
+
+#container{
+  background-color: #000000;
+  font-family: 'Calibri', 'Tahoma', 'Arial';
+  height: 22px;
+  font-size: 16px;
+  width: 1200px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt-h1{
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+.parag{
+  background-color: #FFFFFF;
+  text-align: justify;
+  border: 1px;
+  style: solid;
+  color: #CCCCCC;
+  margin-bottom: 20px;
+}
+
+.txt-h2{
+  margin: 0;
+  border-bottom: 1px;
+  dashed: #7E9F19;
+}
