@@ -1,0 +1,62 @@
+body{
+  background-color: #000000;
+  font-family: Calibri, Tahoma, Arial;
+  font-weight: 16px;
+  line-height: 22px;
+
+}
+
+h1{
+    color: #ffffff;
+    font-weight: 50px;
+}
+hr {
+ border-top: 1px dashed #000000;
+ color: #fff;
+ background-color: #fff;
+ height: 4px;
+}
+.drone1{
+  text-align: justify;
+  background-color: #ffffff;
+}
+.drone2{
+  text-align: justify;
+  background-color: #ffffff;
+}
+.drone3{
+  text-align: justify;
+  background-color: #ffffff;
+}
+
+.container{
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+img{
+  width: 150px;
+  border-color: #7E9F19;
+  border: solid;
+  margin-left:20px;
+  float: left;
+}
+h2{
+  padding: 5px;
+}
+
+p{
+  padding: 10px;
+
+}
+
+.twitter{
+  text-align: right
+}
+.site{
+  text-align: right;
+}
+footer{
+  color: #ffffff;
+  text-align: center;
+}
