@@ -3,7 +3,22 @@
 body{
   /*background-color: #000000;*/
   background-image: url(../img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Calibri', 'Tahoma', 'Arial';
   line-height: 22px;
   font-size: 16px;
+}
+
+#container h1{
+  color: #ffffff;
+  font-size: 50px;
+}
+
+#container{
+  width: 1200px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
 }
