@@ -17,7 +17,7 @@ h1{
   margin-right: auto;
 }
 
-.pri-drone{
+.drone{
   background-color: #ffffff;
   text-align: justify;
   border-width: 1px;
@@ -26,24 +26,7 @@ h1{
   margin-bottom:20px;
   padding:20px;
 }
-.seg-drone{
-  background-color: #ffffff;
-  text-align: justify;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #cccccc;
-  margin-bottom:20px;
-  padding:20px;
-}
-.ter-drone{
-  background-color: #ffffff;
-  text-align: justify;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #cccccc;
-  margin-bottom:20px;
-  padding:20px;
-}
+
 h2{
   margin: 0px;
   border-bottom: 1px;
