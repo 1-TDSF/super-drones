@@ -1,12 +1,17 @@
+@charset "UTF-8";
+
 body{
-  background-color:#000000;
+/*background-color:#000000; */
+  background-image: url(../img/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Calibri', 'Tahoma', 'Arial';
+  line-height: 22px;
+  font-size: 16px;
 
 }
 
 #container{
-  line-height: 22px;
-  font-size: 16px;
   width: 1200px;
   margin-top:0px;
   margin-bottom: 0px;
@@ -14,10 +19,9 @@ body{
   margin-right: auto;
 }
 
-.txt-h1{
-  color: #FFFFFF;
+#container h1{
+  color:#FFFFFF;
   font-size: 50px;
-  text-align: center;
 }
 
 .parag{
@@ -28,12 +32,14 @@ body{
   margin-bottom: 20px;
 }
 
-.txt-h2{
-  margin: 0;
-  border-bottom: 1px dashed #7E9F19 ;
+.parag h2{
+  margin: 0px;
+  border-style: dashed;
+  border-color: #7E9F19;
+  border-width: 0px 0px 1px 0px;
 }
 
-.tit-web{
+#tit-web{
   text-align: center;
   font-size: 12px;
   color: #FFFFFF;
@@ -64,7 +70,9 @@ a{
 
 .link2{
   text-align: right;
-  border-bottom: 1px dashed #7E9F19;
+  border-style: dashed;
+  border-color: #7E9F19;
+  border-width: 0px 0px 1px 0px;
 }
 
 a:HOVER{
