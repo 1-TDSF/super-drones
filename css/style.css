@@ -1,11 +1,13 @@
 body {
   background-image: url("../img/fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Calibri", "Tahoma", "Arial";
   line-height: 22px;
   font-size: 16px;
 }
 
-h1 {
+#container h1 {
   color: #FFFFFF;
   font-size: 50px;
 }
@@ -23,12 +25,12 @@ h1 {
   padding: 20px;
 }
 
-h2 {
+.drones h2 {
   margin: 0px;
   border-bottom: 1px dashed #7E9F19;
 }
 
-a {
+#container a {
   color: #2C88A7;
   font-weight: 900;
   text-decoration: none;
